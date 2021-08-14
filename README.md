@@ -52,7 +52,7 @@ Your app's rating will affect its chances of being featured. Apps with 3 stars o
 
 By plotting seaborn heatmap correlation we got to knew that there are five features in the given play store data set which are highly correlated with each other, reviews are highly correlated with the number of installations. There are 64% chances of downloading an application by users if previous reviews on that applications are positive.
 Likewise, size and download or the number of installations are negatively correlated, It means as the size of the applications increases user avoids downloading those applications.
- Another two features which correlate with each other are category type and the number of installations. It is found that people will still download an application with a bigger size if it is free of cost. But customers are not willing to download a paid bigger size applications
+ Another two features which correlate with each other are category type and the number of installations. It is found that people will still download an application with a bigger size if it is free of cost. But customers are not willing to download a paid bigger size applications.
 
 
 4.1.3 Content Rating, And Number of Application Per Category Countplot:
@@ -71,7 +71,7 @@ The scatter plot we implied gives the result that when the size of applications 
 
 
 We used plotly bar plot to find out the most installed, most reviewed, and most space-consuming categories.
-With the help of plotly bar plot, we found that gaming and communication these two categories have the highest reviews and thus the number of downloads. However, family and gaming categories are the two most space consuming categories in the google play store
+With the help of plotly bar plot, we found that gaming and communication these two categories have the highest reviews and thus the number of downloads. However, family and gaming categories are the two most space consuming categories in the google play store.
 
 
 4.1.6 Sentiment Distribution and Analysis Matplotlib histograms and pie-chart.
@@ -93,7 +93,7 @@ That's it! We reached the end of our exercise. As per our Exploratory Data Analy
 2. Size vs install vs type: As we have observed in the size vs installation vs type scatterplot, the ideal size of the application should be below 40 MB and max up to 50 MB. we have seen that peoples are less interested to install and use heavy-size applications even though the application is free of cost.
 
 
-3. Reviews vs install: We have experienced from the seaborn heatmap that reviews on the google play store are highly correlated with the rate of installation. Reviews are given by users as per their experience with the application. So reviews on the application should be examined properly to get to know the performance of the application, whether it is catering to the need of users, From review, we will get an idea on which aspect to work on
+3. Reviews vs install: We have experienced from the seaborn heatmap that reviews on the google play store are highly correlated with the rate of installation. Reviews are given by users as per their experience with the application. So reviews on the application should be examined properly to get to know the performance of the application, whether it is catering to the need of users, From review, we will get an idea on which aspect to work on.
 
 
 4. The most installed category: As we have explored applications belongs to the category gaming and followed by communication are being installed the most, secondly, applications from the productivity category followed by the social media category are being installed the most, It gives us tips to choose domain as per the customer affection inclination.
