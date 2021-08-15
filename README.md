@@ -74,7 +74,7 @@ We used plotly bar plot to find out the most installed, most reviewed, and most 
 With the help of plotly bar plot, we found that gaming and communication these two categories have the highest reviews and thus the number of downloads. However, family and gaming categories are the two most space consuming categories in the google play store.
 
 
-4.1.6 Sentiment Distribution and Analysis Matplotlib histograms and pie-chart.
+4.1.6 Sentiment Distribution and Analysis Matplotlib histograms and pie-chart:
 
 
 There are more than 63% reviews are positive on google play store, around 26% are negative and remainning 11% neutral.
