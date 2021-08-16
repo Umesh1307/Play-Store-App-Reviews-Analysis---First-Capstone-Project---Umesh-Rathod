@@ -71,7 +71,7 @@ The scatter plot we implied gives the result that when the size of applications 
 
 
 We used plotly bar plot to find out the most installed, most reviewed, and most space-consuming categories.
-With the help of plotly bar plot, we found that gaming and communication these two categories have the highest reviews and thus the number of downloads. However, family and gaming categories are the two most space consuming categories in the google play store
+With the help of plotly bar plot, we found that gaming and communication these two categories have the highest reviews and thus the number of downloads. However, family and gaming categories are the two most space consuming categories in the google play store.
 
 
 4.1.6 Sentiment Distribution and Analysis Matplotlib histograms and pie-chart:
