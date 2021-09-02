@@ -112,9 +112,11 @@ That's it! We reached the end of our exercise. As per our Exploratory Data Analy
 
 4. The most installed category: As we have explored applications belongs to the category gaming and followed by communication are being installed the most, secondly, applications from the productivity category followed by the social media category are being installed the most, It gives us tips to choose domain as per the customer affection inclination.
 
-  5.Size vs Rating vs Reviews vs Price: We have seen that if there are fewer number reviews, there will be a lesser number of ratings, and as a price increase, there are fewer ratings as there are fewer downloads.
+5. Size vs Rating vs Reviews vs Price: We have seen that if there are fewer number of reviews, there will be a lesser number of ratings, and as price increase, there are fewer ratings as there are fewer downloads.
 
-6. Android version vs installs vs size: We observed that android version 4.1 and up is being installed most and the size of the application is ranging from 0 to 40 Mb. It is a hint for us to choose the version for the applications.
+
+6. Android version vs Installs vs Size: We obseerved that android version 4.1 and up is being installed most and the size of the applications is ranging from 0 to 40 Mb. It is a hint for us to choose the version for the applications.
+
 
 
 
