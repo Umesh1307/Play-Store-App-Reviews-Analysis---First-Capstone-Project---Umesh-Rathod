@@ -1,3 +1,17 @@
+![newplot (29) (1)](https://user-images.githubusercontent.com/75175373/131769552-c9d05a9d-b96a-48e8-b67d-97d2843a3472.png)
+
+                                                        
+
+
+
+
+
+
+
+
+
+
+
 1. Problem Statement: 
 The Play Store apps data has enormous potential to drive app-making businesses to success. Actionable insights can be drawn for developers to work on and capture the Android market.
 Each app (row) has values for catergory, rating, size, and more. Another dataset contains customer reviews of the android apps.
@@ -100,7 +114,6 @@ That's it! We reached the end of our exercise. As per our Exploratory Data Analy
 
 
 5.Size vs Rating vs Reviews vs Price: We have seen that if there are fewer number reviews, there will be a lesser number of ratings, and as a price increase, there are fewer ratings as there are fewer downloads.
-
 
 6. Android version vs installs vs size: We observed that android version 4.1 and up is being installed most and the size of the application is ranging from 0 to 40 Mb. It is a hint for us to choose the version for the applications.
 
