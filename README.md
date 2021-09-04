@@ -87,6 +87,10 @@ The scatter plot we implied gives the result that when the size of applications 
 We used plotly bar plot to find out the most installed, most reviewed, and most space-consuming categories.
 With the help of plotly bar plot, we found that gaming and communication these two categories have the highest reviews and thus the number of downloads. However, family and gaming categories are the two most space consuming categories in the google play store.
 
+4.1.6 Last Update vs Year vs Month:
+we can conclude that before 2012 there were no paid apps, but with the years passing free apps has been added more in comparison to paid apps, By comparing the apps updated or added in the year 2011 and 2018 free apps are increases from 0.01% to 64.61% and paid apps are gone from 0.27 to 3.18%. So, we can conclude that most people are after free apps.
+
+
 
 4.1.6 Sentiment Distribution and Analysis Matplotlib histograms and pie-chart:
 
