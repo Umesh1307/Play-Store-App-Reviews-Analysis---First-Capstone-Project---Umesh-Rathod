@@ -115,23 +115,27 @@ Fig 12: Category vs Reviews
 ![newplot (41)](https://user-images.githubusercontent.com/75175373/132113189-ef22f438-b35c-4d91-8524-acb4e4973910.png) Fig 13: Category Vs installs
 
 
+
 4.1.6 Last Update vs Year vs Month:
 we can conclude that before 2012 there were no paid apps, but with the years passing free apps has been added more in comparison to paid apps, By comparing the apps updated or added in the year 2011 and 2018 free apps are increases from 0.01% to 64.61% and paid apps are gone from 0.27 to 3.18%. So, we can conclude that most people are after free apps.
 ![newplot (40)](https://user-images.githubusercontent.com/75175373/132113195-d89029a6-6868-49ba-b9d9-580dfe895ac9.png) Fig 14: Last Updated Vs App Added
 ![newplot (36)](https://user-images.githubusercontent.com/75175373/132113449-183bd241-a207-477c-b71b-d055ca989bbb.png)
 Fig 15 : Category Vs Last Updated Month
 
+4.1.6 Most Installed Android Version:
+![newplot (32)](https://user-images.githubusercontent.com/75175373/132113751-484abdfc-1a3e-4bdd-9ce1-05ab887af5ae.png)
+Fig 16: Android Version vs Installs
 
 
-4.1.6 Sentiment Distribution and Analysis Matplotlib histograms and pie-chart:
+4.1.7 Sentiment Distribution and Analysis Matplotlib histograms and pie-chart:
 
 
 There are more than 63% reviews are positive on google play store, around 26% are negative and remainning 11% neutral.
 ![Percentage_distribution](https://user-images.githubusercontent.com/75175373/132113241-49335985-f4b7-436c-a47b-5441867cecb0.png) 
-Fig 16: Percentage Reviews Sentiment
+Fig 17: Percentage Reviews Sentiment
 
 ![newplot (34)](https://user-images.githubusercontent.com/75175373/132113468-e0a5ab93-470c-40d9-b437-ded96712b122.png)
-Fig 17: Category vs Reviews Sentiment
+Fig 18: Category vs Reviews Sentiment
 
 
 
@@ -157,10 +161,7 @@ That's it! We reached the end of our exercise. As per our Exploratory Data Analy
 5. Size vs Rating vs Reviews vs Price: We have seen that if there are fewer number of reviews, there will be a lesser number of ratings, and as price increase, there are fewer ratings as there are fewer downloads.
 
 
-6. Android version vs Installs vs Size: We obseerved that android version 4.1 and up is being installed most and the size of the applications is ranging from 0 to 40 Mb. It is a hint for us to choose the version for the applications.
-
-
-
+6. Android version vs Installs vs Size: We observed that android version 4.1 and up is being installed most and the size of the applications is ranging from 0 to 40 Mb. It is a hint for us to choose the version for the applications.
 
 
 
