@@ -1,4 +1,4 @@
-![newplot (29) (1)](https://user-images.githubusercontent.com/75175373/131769552-c9d05a9d-b96a-48e8-b67d-97d2843a3472.png)
+
 
                                                         
 
@@ -60,13 +60,26 @@ Following are the observation which using Exploratory Data Analysis and visualiz
 The average rating distribution for every category in the entire play store data set is around 4.2 out of 5. That’s incredible!
 
 Your app's rating will affect its chances of being featured. Apps with 3 stars or lower will not be featured. The app rating is an important aspect of ASO (app store optimization). Negative mobile app reviews combined with a poor rating will hurt your app's rank, but great app reviews and high ratings will help increase your app's rank.
+![newplot (37)](https://user-images.githubusercontent.com/75175373/132113138-8a758fcc-8b38-4926-85cf-612bdcc46b12.png) fig 1: Category(free & paid) vs Ratings
+![newplot (42)](https://user-images.githubusercontent.com/75175373/132113584-a6900e80-03a4-4b8c-9f33-3e867781bfdd.png)
+Fig 2: Price vs Rating
+![newplot (28)](https://user-images.githubusercontent.com/75175373/132113592-9f03a34f-3c78-432d-9887-26981a9c99fb.png)
+Fig 3: Rating vs Size
+![newplot (29)](https://user-images.githubusercontent.com/75175373/132113599-2ae9380a-15b5-463a-8b12-03a7ad8aa2e1.png)
+Fig 4: Reviews vs Rating
+                                     
+
+
 
 4.1.2 Correlation Between features Seaborn Heatmap:
 
 
-By plotting seaborn heatmap correlation we got to knew that there are five features in the given play store data set which are highly correlated with each other, reviews are highly correlated with the number of installations. There are 64% chances of downloading an application by users if previous reviews on that applications are positive.
+By plotting seaborn heatmap correlation we got to know that there are five features in the given play store data set which are highly correlated with each other, reviews are highly correlated with the number of installations. There are 64% chances of downloading an application by users if previous reviews on that applications are positive.
 Likewise, size and download or the number of installations are negatively correlated, It means as the size of the applications increases user avoids downloading those applications.
  Another two features which correlate with each other are category type and the number of installations. It is found that people will still download an application with a bigger size if it is free of cost. But customers are not willing to download a paid bigger size applications.
+ ![heatmap_new](https://user-images.githubusercontent.com/75175373/132113149-71f8b0df-c948-4796-a8d5-0cc407a2931d.png)
+ 
+fig 5: Heatmap Correlation Matrix
 
 
 4.1.3 Content Rating, And Number of Application Per Category Countplot:
@@ -75,20 +88,38 @@ Likewise, size and download or the number of installations are negatively correl
 Most of the applications on google play is having a content rating for everyone. However, only the dating category is for the mature 17+ age group.
 We used the count plot to count the total number of applications available inside a particular category.
 
+![content_rating_pro](https://user-images.githubusercontent.com/75175373/132113160-ec6d0109-f444-49c7-9e32-61a46ec19eda.png) fig 6: Category vs Content Rating
+![newplot (21)](https://user-images.githubusercontent.com/75175373/132113618-418707a4-f57f-4043-bcc2-284b9d4a680f.png)
+Fig 7: Content Rating vs Installs
+![newplot (26)](https://user-images.githubusercontent.com/75175373/132113176-e22c78ef-3fa1-4ee6-94dd-8350e427482b.png) fig 8: Category Vs App Count
+
+
 4.1.4 Size And Type Effect On Number of Downloads Or Installs Plotly Scatter Plot: 
 
 
 We used the scatter plot for the understanding effect of the size of the applications and their type; on the number of installs or downloads. 
 The scatter plot we implied gives the result that when the size of applications increases there is a decrement in the number of downloads.
+![newly_distributed_size](https://user-images.githubusercontent.com/75175373/132113270-2e8eac6e-0096-4748-8fc6-ba8425313c81.png) fig 9: Size Distribution
+![newplot (25)](https://user-images.githubusercontent.com/75175373/132113178-8780d8c5-1c84-4fd6-b0da-c479fa7e88b0.png) Fig 10: Size vs Type Vs Installs
+
 
 4.1.5 Most Reviewed vs Most Space required vs Most Installed Category Plotly bar plot:
 
 
 We used plotly bar plot to find out the most installed, most reviewed, and most space-consuming categories.
 With the help of plotly bar plot, we found that gaming and communication these two categories have the highest reviews and thus the number of downloads. However, family and gaming categories are the two most space consuming categories in the google play store.
+![newplot (30)](https://user-images.githubusercontent.com/75175373/132113497-b39c3e0b-65a3-497b-85a5-83af93d9bb36.png)
+Fig 11: Category vs Percentage Space Consumption
+![newplot (43)](https://user-images.githubusercontent.com/75175373/132113539-0295f9ee-2eaa-4169-a45b-f6f56760331b.png)
+Fig 12: Category vs Reviews
+![newplot (41)](https://user-images.githubusercontent.com/75175373/132113189-ef22f438-b35c-4d91-8524-acb4e4973910.png) Fig 13: Category Vs installs
+
 
 4.1.6 Last Update vs Year vs Month:
 we can conclude that before 2012 there were no paid apps, but with the years passing free apps has been added more in comparison to paid apps, By comparing the apps updated or added in the year 2011 and 2018 free apps are increases from 0.01% to 64.61% and paid apps are gone from 0.27 to 3.18%. So, we can conclude that most people are after free apps.
+![newplot (40)](https://user-images.githubusercontent.com/75175373/132113195-d89029a6-6868-49ba-b9d9-580dfe895ac9.png) Fig 14: Last Updated Vs App Added
+![newplot (36)](https://user-images.githubusercontent.com/75175373/132113449-183bd241-a207-477c-b71b-d055ca989bbb.png)
+Fig 15 : Category Vs Last Updated Month
 
 
 
@@ -96,6 +127,13 @@ we can conclude that before 2012 there were no paid apps, but with the years pas
 
 
 There are more than 63% reviews are positive on google play store, around 26% are negative and remainning 11% neutral.
+![Percentage_distribution](https://user-images.githubusercontent.com/75175373/132113241-49335985-f4b7-436c-a47b-5441867cecb0.png) 
+Fig 16: Percentage Reviews Sentiment
+
+![newplot (34)](https://user-images.githubusercontent.com/75175373/132113468-e0a5ab93-470c-40d9-b437-ded96712b122.png)
+Fig 17: Category vs Reviews Sentiment
+
+
 
 
 
